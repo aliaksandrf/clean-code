@@ -141,13 +141,13 @@ input#new-task {
   width: 226px;
 }
 
-button.delete img {
+.image-delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-button.delete img:hover {
+.image-delete:hover {
   transform: rotateZ(0);
 }
 
