@@ -152,7 +152,7 @@ input#new-task {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.completed-tasks-container label {
   text-decoration: line-through;
   color: #888;
 }
