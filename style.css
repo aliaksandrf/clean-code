@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header__link {
+.header .header__link {
   font-family: fantasy, cursive;
 }
 
@@ -75,8 +75,7 @@ button {
 }
 
 /* Heading */
-.title,
-label[for="new-task"] {
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
