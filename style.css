@@ -105,7 +105,6 @@ input[type="text"]:focus {
 /* New Task */
 label[for="new-task"] {
   display: block;
-
 }
 
 input#new-task {
@@ -152,7 +151,7 @@ input#new-task {
 }
 
 /* Completed */
-.completed-tasks-container label {
+.completed-tasks__container label {
   text-decoration: line-through;
   color: #888;
 }

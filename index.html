@@ -17,7 +17,7 @@
           <input id="new-task" class="task" type="text"><button class="btn">Add</button>
         </div>
       </section>
-      <section>
+      <section class="incomplete">
         <h3 class="title">Todo</h3>
         <ul class = "list-container" id="incomplete-tasks">
           <li class="list-item">
@@ -30,10 +30,10 @@
               <button class="btn delete"><img src="./remove.svg" class="image-delete" alt="remove-image"></button></li>
         </ul>
       </section>
-      <section>
+      <section class="completed-tasks">
         <h3 class="title">Completed</h3>
-        <ul class = "list-container completed-tasks-container" id="completed-tasks">
-          <li  class="list-item" >
+        <ul class = "list-container completed-tasks__container" id="completed-tasks">
+          <li  class="list-item">
               <input type="checkbox" checked><label class="task">See the Doctor</label>
               <input type="text" class="task"><button class=" btn edit">Edit</button>
               <button class="btn delete"><img src="./remove.svg" class="image-delete" alt="remove-image"></button>
